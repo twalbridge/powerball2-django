@@ -1,0 +1,168 @@
+Project Description:
+
+I would like to add my favorite 6 numbers to consider for a Powerball entry 
+ticket. The winning ticket will be selected based upon overall popularity.
+
+Application requirements:
+
+Capture the names of the people entering their number.
+
+The first 5 favorite numbers will need to be in the range of 1 to 69 and 
+unique. The 6th favorite number will need to be in the range 
+of 1 to 26 and flagged as the 6th Powerball number. Keep count of each 
+individual favorite number provided to determine which numbers to use in 
+our final winning number. Retrieve the max count of each unique duplicate 
+number and use them as the Powerball numbers. If there is a tie based on 
+the max counts randomly select the tied number.
+
+Display all entries with their corresponding number entries. 
+
+Display the final Powerball number based on the requirements above.
+
+
+
+
+Sample output:
+
+
+            Fill in the entry form with your first and last name, your choice of five favorite numbers within the range of 1 through 69 (no duplicates) and your powerball number pick within the range of 1 through 26.
+
+
+Enter your first name: jerry
+Enter your last name: lewis
+
+Select 1st: 12
+Select 2nd: 2
+Select 3rd: 3
+Select 4th: 56
+Select 5th: 67
+Select Power Ball: 6
+--------------------------------------------------------------------------- 
+
+     * Current most popular selection! 28 66 29 14 42 and Powerball 24 *     
+
+ Successfully submitted.
+	Your entry is:
+		12  2  3 56 67 and Powerball  6
+
+
+New entry
+
+             Fill in the entry form with your first and last name, your choice of five favorite numbers within the range of 1 through 69 (no duplicates) and your powerball number pick within the range of 1 through 26. 
+       
+
+Enter your first name: sasha
+Enter your last name: cohen                  
+
+Select 1st: 22
+Select 2nd: 33
+Select 3rd: 44
+Select 4th: 56
+Select 5th: 66
+Select Power Ball: 4
+--------------------------------------------------------------------------- 
+
+     * Current most popular selection! 56 47 27 67 15 and Powerball 1 *      
+
+ Successfully submitted.
+	Your entry is:
+		22 33 44 56 66 and Powerball  4
+ 
+ All other entries:
+	Jerry Lewis:
+		12  2  3 56 67 and Powerball  6
+
+
+New entry
+
+             Fill in the entry form with your first and last name, your choice of five favorite numbers within the range of 1 through 69 (no duplicates) and your powerball number pick within the range of 1 through 26.
+
+ 
+Enter your first name: todd
+Enter your last name: walbridge
+
+Select 1st: 1
+Select 2nd: 2
+Select 3rd: 3
+Select 4th: 4
+Select 5th: 5
+Select Power Ball: 6
+--------------------------------------------------------------------------- 
+
+      * Current most popular selection! 2 3 56 52 25 and Powerball 6 *       
+
+ Successfully submitted.
+	Your entry is:
+		 1  2  3  4  5 and Powerball  6
+ 
+ All other entries:
+	Sasha Cohen:
+		22 33 44 56 66 and Powerball  4
+	Jerry Lewis:
+		12  2  3 56 67 and Powerball  6
+
+
+New entry
+
+             Fill in the entry form with your first and last name, your choice of five favorite numbers within the range of 1 through 69 (no duplicates) and your powerball number pick within the range of 1 through 26.
+
+ 
+Enter your first name: jay
+Enter your last name: Lewis
+
+Select 1st: 12
+Select 2nd: 02
+Select 3rd: 03
+Select 4th: 55
+Select 5th: 66
+Select Power Ball: 2
+--------------------------------------------------------------------------- 
+
+      * Current most popular selection! 2 3 12 66 56 and Powerball 6 *       
+
+ Successfully submitted.
+	Your entry is:
+		12  2  3 55 66 and Powerball  2
+ 
+ All other entries:
+	Sasha Cohen:
+		22 33 44 56 66 and Powerball  4
+	Jerry Lewis:
+		12  2  3 56 67 and Powerball  6
+	Todd Walbridge:
+		 1  2  3  4  5 and Powerball  6
+
+
+New entry
+
+             Fill in the entry form with your first and last name, your choice of five favorite numbers within the range of 1 through 69 (no duplicates) and your powerball number pick within the range of 1 through 26.
+
+ 
+Enter your first name: sally
+Enter your last name: coat
+
+Select 1st: 67
+Select 2nd: 68
+Select 3rd: 69
+Select 4th: 2
+Select 5th: 4
+Select Power Ball: 5
+--------------------------------------------------------------------------- 
+
+       * Current most popular selection! 2 3 4 12 66 and Powerball 6 *       
+
+ Successfully submitted.
+	Your entry is:
+		67 68 69  2  4 and Powerball  5
+ 
+ All other entries:
+ 	Sasha Cohen:
+		22 33 44 56 66 and Powerball  4
+ 	Jay Lewis:
+		12  2  3 55 66 and Powerball  2
+	Jerry Lewis:
+		12  2  3 56 67 and Powerball  6
+	Todd Walbridge:
+		 1  2  3  4  5 and Powerball  6
+
+ 

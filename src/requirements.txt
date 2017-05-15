@@ -1,0 +1,12 @@
+Django==1.10.3
+pinax-theme-bootstrap==7.11.0
+appdirs==1.4.3
+django-appconf==1.0.2
+django-bootstrap-form==3.2.1
+packaging==16.8
+pyparsing==2.2.0
+pytz==2017.2
+six==1.10.0
+coverage==4.4
+django-test-plus==1.0.17
+django-coverage-plugin==1.5.0

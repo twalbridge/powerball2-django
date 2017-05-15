@@ -1,0 +1,52 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% load bootstrap %}
+
+{% block head_title %}Powerball{% endblock %}
+
+{% block body_class %}home{% endblock %}
+
+{% block body_base %}
+    <section class="text-center">
+        <h1 class="text-center">{% blocktrans %}Welcome to PowerBall{% endblocktrans %}</h1>
+        {% include "_messages.html" %}
+        <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content"></div> 
+            </div>
+        </div>
+        <div class="modal fade" id="entry-list-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content"></div> 
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-3 text-center">
+                <h4>
+                    {% blocktrans %}
+                    Fill in the entry form with your first and last name, your choice of five favorite numbers within the range of 1 through 69 (no duplicates) and your powerball number pick within the range of 1 through 26.
+                    {% endblocktrans %}
+                </h4>
+                <h4 class="text-center"><a data-toggle="modal" href="{% url 'playball:popular_entry' %}" data-target="#entry-list-modal">Get the current most popular number selection</a></h4>
+                <h4 class="text-center"><a href="{% url 'playball:entry_list' %}">All entries</a></h4>
+            </div>
+            <div class="col-sm-2" style="background-color:#dcdee2;">
+              {% include 'playball/form_inner.html' %}
+            </div>
+          </div>
+        </div>
+    </section>
+{% endblock %}
+{% block scripts %}
+    {{ block.super }}
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#id_username').focus();
+        });
+    </script>
+{% endblock %}
