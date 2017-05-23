@@ -2,3 +2,7 @@
 node_modules/
 dev.db
 site_media/
+bin
+include
+lib
+local

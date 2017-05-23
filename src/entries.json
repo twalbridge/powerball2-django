@@ -1,0 +1,167 @@
+[
+{
+  "model": "playball.entry",
+  "pk": 1,
+  "fields": {
+    "slug": "toddwalbridge",
+    "first_name": "Todd",
+    "last_name": "Walbridge",
+    "first_favorite": 2,
+    "second_favorite": 33,
+    "third_favorite": 44,
+    "fourth_favorite": 5,
+    "fifth_favorite": 6,
+    "power_ball_number": 7
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 2,
+  "fields": {
+    "slug": "jakedaniels",
+    "first_name": "Jake",
+    "last_name": "Daniels",
+    "first_favorite": 2,
+    "second_favorite": 23,
+    "third_favorite": 24,
+    "fourth_favorite": 25,
+    "fifth_favorite": 55,
+    "power_ball_number": 3
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 3,
+  "fields": {
+    "slug": "lalanjay",
+    "first_name": "Lalan",
+    "last_name": "Jay",
+    "first_favorite": 1,
+    "second_favorite": 2,
+    "third_favorite": 3,
+    "fourth_favorite": 4,
+    "fifth_favorite": 5,
+    "power_ball_number": 7
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 4,
+  "fields": {
+    "slug": "lisareagen",
+    "first_name": "Lisa",
+    "last_name": "Reagen",
+    "first_favorite": 21,
+    "second_favorite": 12,
+    "third_favorite": 13,
+    "fourth_favorite": 44,
+    "fifth_favorite": 23,
+    "power_ball_number": 23
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 5,
+  "fields": {
+    "slug": "paullangleyo",
+    "first_name": "Paul",
+    "last_name": "Langleyo",
+    "first_favorite": 41,
+    "second_favorite": 42,
+    "third_favorite": 43,
+    "fourth_favorite": 45,
+    "fifth_favorite": 46,
+    "power_ball_number": 3
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 6,
+  "fields": {
+    "slug": "addykastanza",
+    "first_name": "Addy",
+    "last_name": "Kastanza",
+    "first_favorite": 61,
+    "second_favorite": 62,
+    "third_favorite": 63,
+    "fourth_favorite": 64,
+    "fifth_favorite": 66,
+    "power_ball_number": 26
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 7,
+  "fields": {
+    "slug": "fredmamnnn",
+    "first_name": "Fred",
+    "last_name": "Mamnnn",
+    "first_favorite": 45,
+    "second_favorite": 67,
+    "third_favorite": 12,
+    "fourth_favorite": 31,
+    "fifth_favorite": 41,
+    "power_ball_number": 21
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 8,
+  "fields": {
+    "slug": "heathercarrer",
+    "first_name": "Heather",
+    "last_name": "Carrer",
+    "first_favorite": 26,
+    "second_favorite": 6,
+    "third_favorite": 37,
+    "fourth_favorite": 4,
+    "fifth_favorite": 23,
+    "power_ball_number": 8
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 9,
+  "fields": {
+    "slug": "harpozolangley",
+    "first_name": "Harpozo",
+    "last_name": "Langley",
+    "first_favorite": 4,
+    "second_favorite": 67,
+    "third_favorite": 68,
+    "fourth_favorite": 23,
+    "fifth_favorite": 42,
+    "power_ball_number": 12
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 10,
+  "fields": {
+    "slug": "peteruye",
+    "first_name": "Peter",
+    "last_name": "Uye",
+    "first_favorite": 69,
+    "second_favorite": 12,
+    "third_favorite": 19,
+    "fourth_favorite": 29,
+    "fifth_favorite": 8,
+    "power_ball_number": 19
+  }
+},
+{
+  "model": "playball.entry",
+  "pk": 11,
+  "fields": {
+    "slug": "paulme",
+    "first_name": "Paul",
+    "last_name": "Me",
+    "first_favorite": 5,
+    "second_favorite": 6,
+    "third_favorite": 7,
+    "fourth_favorite": 9,
+    "fifth_favorite": 8,
+    "power_ball_number": 8
+  }
+}
+]
