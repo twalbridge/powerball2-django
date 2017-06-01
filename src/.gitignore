@@ -1,3 +1,4 @@
 *.pyc
 node_modules/
 dev.db
+secret_key
