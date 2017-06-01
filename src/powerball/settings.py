@@ -1,5 +1,7 @@
 import os
 
+from secret_key import STORED_SECRET_KEY
+
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -79,7 +81,7 @@ STATICFILES_FINDERS = [
 ]
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = "x=$9-9!=7l$!^xkxo60@0+6n8^wf&w&0b=v55kj-k7@z64vx#&"
+SECRET_KEY = STORED_SECRET_KEY
 
 TEMPLATES = [
     {
