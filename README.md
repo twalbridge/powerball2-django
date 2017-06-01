@@ -1,1 +1,1 @@
-Entire code for PowerBall project as a Django application on a virtual environment.
+Entire code for the PowerBall project as a Django application on a virtual environment.
